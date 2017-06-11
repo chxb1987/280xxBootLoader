@@ -25,7 +25,7 @@ ORDERED_OBJS += \
 "./descriptor.obj" \
 "./flashcheck.obj" \
 "./main.obj" \
-"C:/projects/CCS/F280_Flash/Lib/2803x_FlashAPI_BootROMSymbols.lib" \
+"C:/projects/CCS/280xxBootLoader/Lib/2803x_FlashAPI_BootROMSymbols.lib" \
 "../DSP2803x_Headers_nonBIOS.cmd" \
 "../Loader_28035_flash_lnk.cmd" \
 $(GEN_CMDS__FLAG) \
@@ -136,33 +136,33 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXE_OUTPUTS += \
-F280_Loader.out \
+280xxBootLoader.out \
 
 EXE_OUTPUTS__QUOTED += \
-"F280_Loader.out" \
+"280xxBootLoader.out" \
 
 BIN_OUTPUTS += \
-F280_Loader.hex \
+280xxBootLoader.hex \
 
 BIN_OUTPUTS__QUOTED += \
-"F280_Loader.hex" \
+"280xxBootLoader.hex" \
 
 
 # All Target
 all: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
-	@$(MAKE) --no-print-directory -Onone "F280_Loader.out"
+	@$(MAKE) --no-print-directory -Onone "280xxBootLoader.out"
 
 # Tool invocations
-F280_Loader.out: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
+280xxBootLoader.out: $(OBJS) $(CMD_SRCS) $(LIB_SRCS) $(GEN_CMDS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: C2000 Linker'
-	"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 -O4 --opt_for_speed=5 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"F280_Loader.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.1.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.1.LTS/include" --reread_libs --diag_suppress=16002 --diag_wrap=off --display_error_number --xml_link_info="F280_Loader_linkInfo.xml" --rom_model -o "F280_Loader.out" $(ORDERED_OBJS)
+	"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.1.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla0 -O4 --opt_for_speed=5 -g --diag_warning=225 --diag_wrap=off --display_error_number -z -m"280xxBootLoader.map" --stack_size=0x300 --warn_sections -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.1.LTS/lib" -i"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.1.LTS/include" --reread_libs --diag_suppress=16002 --diag_wrap=off --display_error_number --xml_link_info="280xxBootLoader_linkInfo.xml" --rom_model -o "280xxBootLoader.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-F280_Loader.hex: $(EXE_OUTPUTS)
+280xxBootLoader.hex: $(EXE_OUTPUTS)
 	@echo 'Invoking: C2000 Hex Utility'
-	"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.1.LTS/bin/hex2000"  -o "F280_Loader.hex" $(EXE_OUTPUTS__QUOTED)
+	"C:/ti/ccsv7/tools/compiler/ti-cgt-c2000_16.9.1.LTS/bin/hex2000"  -o "280xxBootLoader.hex" $(EXE_OUTPUTS__QUOTED)
 	@echo 'Finished building: $@'
 	@echo ' '
 

@@ -10,26 +10,26 @@ CMD_SRCS += \
 ../Loader_28035_flash_lnk.cmd 
 
 LIB_SRCS += \
-C:/projects/CCS/F280_Flash/Lib/2803x_FlashAPI_BootROMSymbols.lib 
+C:/projects/CCS/280xxBootLoader/Lib/2803x_FlashAPI_BootROMSymbols.lib 
 
 ASM_SRCS += \
-C:/projects/CCS/F280_Flash/asm/DSP2803x_loaderCodeStartBranch.asm \
-C:/projects/CCS/F280_Flash/asm/DSP2803x_usDelay.asm \
-C:/projects/CCS/F280_Flash/asm/Exit_Boot.asm \
-C:/projects/CCS/F280_Flash/asm/InitBootLoader.asm 
+C:/projects/CCS/280xxBootLoader/asm/DSP2803x_loaderCodeStartBranch.asm \
+C:/projects/CCS/280xxBootLoader/asm/DSP2803x_usDelay.asm \
+C:/projects/CCS/280xxBootLoader/asm/Exit_Boot.asm \
+C:/projects/CCS/280xxBootLoader/asm/InitBootLoader.asm 
 
 C_SRCS += \
-C:/projects/CCS/F280_Flash/SRC/DSP2803x_CpuTimers.c \
-C:/projects/CCS/F280_Flash/SRC/DSP2803x_DefaultIsr.c \
-C:/projects/CCS/F280_Flash/SRC/DSP2803x_GlobalVariableDefs.c \
-C:/projects/CCS/F280_Flash/SRC/DSP2803x_PieCtrl.c \
-C:/projects/CCS/F280_Flash/SRC/DSP2803x_PieVect.c \
-C:/projects/CCS/F280_Flash/SRC/DSP2803x_SysCtrl.c \
-C:/projects/CCS/F280_Flash/SRC/SCI_Boot.c \
-C:/projects/CCS/F280_Flash/SRC/Shared_Boot.c \
-C:/projects/CCS/F280_Flash/SRC/descriptor.c \
-C:/projects/CCS/F280_Flash/SRC/flashcheck.c \
-C:/projects/CCS/F280_Flash/SRC/main.c 
+C:/projects/CCS/280xxBootLoader/SRC/DSP2803x_CpuTimers.c \
+C:/projects/CCS/280xxBootLoader/SRC/DSP2803x_DefaultIsr.c \
+C:/projects/CCS/280xxBootLoader/SRC/DSP2803x_GlobalVariableDefs.c \
+C:/projects/CCS/280xxBootLoader/SRC/DSP2803x_PieCtrl.c \
+C:/projects/CCS/280xxBootLoader/SRC/DSP2803x_PieVect.c \
+C:/projects/CCS/280xxBootLoader/SRC/DSP2803x_SysCtrl.c \
+C:/projects/CCS/280xxBootLoader/SRC/SCI_Boot.c \
+C:/projects/CCS/280xxBootLoader/SRC/Shared_Boot.c \
+C:/projects/CCS/280xxBootLoader/SRC/descriptor.c \
+C:/projects/CCS/280xxBootLoader/SRC/flashcheck.c \
+C:/projects/CCS/280xxBootLoader/SRC/main.c 
 
 C_DEPS += \
 ./DSP2803x_CpuTimers.d \
@@ -104,22 +104,22 @@ ASM_DEPS__QUOTED += \
 "InitBootLoader.d" 
 
 C_SRCS__QUOTED += \
-"C:/projects/CCS/F280_Flash/SRC/DSP2803x_CpuTimers.c" \
-"C:/projects/CCS/F280_Flash/SRC/DSP2803x_DefaultIsr.c" \
-"C:/projects/CCS/F280_Flash/SRC/DSP2803x_GlobalVariableDefs.c" \
-"C:/projects/CCS/F280_Flash/SRC/DSP2803x_PieCtrl.c" \
-"C:/projects/CCS/F280_Flash/SRC/DSP2803x_PieVect.c" \
-"C:/projects/CCS/F280_Flash/SRC/DSP2803x_SysCtrl.c" \
-"C:/projects/CCS/F280_Flash/SRC/SCI_Boot.c" \
-"C:/projects/CCS/F280_Flash/SRC/Shared_Boot.c" \
-"C:/projects/CCS/F280_Flash/SRC/descriptor.c" \
-"C:/projects/CCS/F280_Flash/SRC/flashcheck.c" \
-"C:/projects/CCS/F280_Flash/SRC/main.c" 
+"C:/projects/CCS/280xxBootLoader/SRC/DSP2803x_CpuTimers.c" \
+"C:/projects/CCS/280xxBootLoader/SRC/DSP2803x_DefaultIsr.c" \
+"C:/projects/CCS/280xxBootLoader/SRC/DSP2803x_GlobalVariableDefs.c" \
+"C:/projects/CCS/280xxBootLoader/SRC/DSP2803x_PieCtrl.c" \
+"C:/projects/CCS/280xxBootLoader/SRC/DSP2803x_PieVect.c" \
+"C:/projects/CCS/280xxBootLoader/SRC/DSP2803x_SysCtrl.c" \
+"C:/projects/CCS/280xxBootLoader/SRC/SCI_Boot.c" \
+"C:/projects/CCS/280xxBootLoader/SRC/Shared_Boot.c" \
+"C:/projects/CCS/280xxBootLoader/SRC/descriptor.c" \
+"C:/projects/CCS/280xxBootLoader/SRC/flashcheck.c" \
+"C:/projects/CCS/280xxBootLoader/SRC/main.c" 
 
 ASM_SRCS__QUOTED += \
-"C:/projects/CCS/F280_Flash/asm/DSP2803x_loaderCodeStartBranch.asm" \
-"C:/projects/CCS/F280_Flash/asm/DSP2803x_usDelay.asm" \
-"C:/projects/CCS/F280_Flash/asm/Exit_Boot.asm" \
-"C:/projects/CCS/F280_Flash/asm/InitBootLoader.asm" 
+"C:/projects/CCS/280xxBootLoader/asm/DSP2803x_loaderCodeStartBranch.asm" \
+"C:/projects/CCS/280xxBootLoader/asm/DSP2803x_usDelay.asm" \
+"C:/projects/CCS/280xxBootLoader/asm/Exit_Boot.asm" \
+"C:/projects/CCS/280xxBootLoader/asm/InitBootLoader.asm" 
 
 

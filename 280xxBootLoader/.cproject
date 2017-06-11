@@ -40,9 +40,9 @@
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.DISPLAY_ERROR_NUMBER.1574429792" name="Emit diagnostic identifier numbers (--display_error_number, -pden)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.DISPLAY_ERROR_NUMBER" useByScannerDiscovery="false" value="true" valueType="boolean"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.DIAG_WRAP.1961015961" name="Wrap diagnostic messages (--diag_wrap)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.DIAG_WRAP" useByScannerDiscovery="false" value="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.DIAG_WRAP.off" valueType="enumerated"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.INCLUDE_PATH.352074628" name="Add dir to #include search path (--include_path, -I)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.INCLUDE_PATH" valueType="includePath">
-									<listOptionValue builtIn="false" value="&quot;C:\projects\CCS\F280_Flash\Compiler\ti-cgt-c2000_16.9.1.LTS\include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\projects\CCS\F280_Flash\v130\DSP2803x_common\include&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;C:\projects\CCS\F280_Flash\v130\DSP2803x_headers\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\projects\CCS\280xxBootLoader\Compiler\ti-cgt-c2000_16.9.1.LTS\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\projects\CCS\280xxBootLoader\v130\DSP2803x_common\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\projects\CCS\280xxBootLoader\v130\DSP2803x_headers\include&quot;"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.OPT_FOR_SPEED.1836651292" name="Speed vs. size trade-offs (--opt_for_speed, -mf)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.OPT_FOR_SPEED" value="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.OPT_FOR_SPEED.5" valueType="enumerated"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.OPT_LEVEL.469142131" name="Optimization level (--opt_level, -O)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.OPT_LEVEL" value="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.OPT_LEVEL.4" valueType="enumerated"/>
@@ -65,7 +65,7 @@
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.linkerID.LIBRARY.5688210" name="Include library file or command file as input (--library, -l)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.linkerID.LIBRARY" useByScannerDiscovery="false" valueType="libs">
 									<listOptionValue builtIn="false" value="&quot;libc.a&quot;"/>
 								</option>
-								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.linkerID.DEFINE.17646902" name="Pre-define preprocessor macro _name_ to _value_ (--define)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.linkerID.DEFINE" valueType="definedSymbols"/>
+								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.linkerID.DEFINE.17646902" name="Pre-define preprocessor macro _name_ to _value_ (--define)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.linkerID.DEFINE"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.linkerID.DIAG_SUPPRESS.1922420135" name="Suppress diagnostic &lt;id&gt; (--diag_suppress)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.linkerID.DIAG_SUPPRESS" valueType="stringList">
 									<listOptionValue builtIn="false" value="16002"/>
 								</option>
