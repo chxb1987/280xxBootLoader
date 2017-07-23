@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<body>
+	<version>1</version>
+	<timestamp>0x59743f58</timestamp>
+	<link_advice_flag>false</link_advice_flag>
+	<current_settings>
+		<option name="--opt_for_speed" value="  --opt_for_speed=5"/>
+		<option name="--opt_level" value="  --opt_level=4"/>
+		<option name="--symdebug:dwarf" value=""/>
+	</current_settings>
+	<advice diag_code="00000" advice_type="curr_setting" option="" value="">advice: Current optimization/debug settings:  --opt_level=4  --opt_for_speed=5    -g</advice>
+</body>

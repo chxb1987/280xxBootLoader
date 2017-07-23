@@ -14,7 +14,17 @@
 #ifndef TMS320X2802X_BOOT_H
 #define TMS320X2802X_BOOT_H
 
+#ifdef F2803x_PRE_DEF
 #include "DSP2803x_Device.h"
+#include "DSP2803x_Examples.h"
+#include "Flash2803x_API_Library.h"
+#endif
+
+#ifdef F2806x_PRE_DEF
+#include "F2806x_Device.h"
+#include "F2806x_Examples.h"
+#include "Flash2806x_API_Library.h"
+#endif
 
 //Length of the programming buffer
 #define PROG_BUFFER_LENGTH 0x400

@@ -1,0 +1,59 @@
+# FIXED
+
+descriptor.obj: C:/projects/CCS/280xxBootLoader/SRC/descriptor.c
+descriptor.obj: C:/projects/CCS/280xxBootLoader/SRC/descriptor.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Device.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Adc.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_BootVars.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Cla.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Comp.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_CpuTimers.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_DevEmu.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Dma.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_ECan.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_ECap.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_EPwm.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_EQep.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Gpio.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_HRCap.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_I2c.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Mcbsp.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_NmiIntrupt.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_PieCtrl.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_PieVect.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Spi.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Sci.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_SysCtrl.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Usb.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_XIntrupt.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/SRC/flashcheck.h
+descriptor.obj: C:/projects/CCS/280xxBootLoader/Compiler/ti-cgt-c2000_16.9.1.LTS/include/stdint.h
+
+C:/projects/CCS/280xxBootLoader/SRC/descriptor.c: 
+C:/projects/CCS/280xxBootLoader/SRC/descriptor.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Device.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Adc.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_BootVars.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Cla.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Comp.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_CpuTimers.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_DevEmu.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Dma.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_ECan.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_ECap.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_EPwm.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_EQep.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Gpio.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_HRCap.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_I2c.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Mcbsp.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_NmiIntrupt.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_PieCtrl.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_PieVect.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Spi.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Sci.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_SysCtrl.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_Usb.h: 
+C:/projects/CCS/280xxBootLoader/280xxBootLoader/device_support/F2806x_v151/F2806x_headers/include/F2806x_XIntrupt.h: 
+C:/projects/CCS/280xxBootLoader/SRC/flashcheck.h: 
+C:/projects/CCS/280xxBootLoader/Compiler/ti-cgt-c2000_16.9.1.LTS/include/stdint.h: 

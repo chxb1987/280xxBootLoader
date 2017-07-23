@@ -1,0 +1,184 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+SHELL = cmd.exe
+
+# Add inputs and outputs from these tool invocations to the build variables 
+ASM_SRCS += \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CSMPasswords.asm \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CodeStartBranch.asm \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_DBGIER.asm \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_DisInt.asm \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_usDelay.asm 
+
+C_SRCS += \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Adc.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Comp.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CpuTimers.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_DefaultIsr.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_ECan.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_ECap.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_EPwm.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_EQep.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Gpio.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_HRCap.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_I2C.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Lin.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_OscComp.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_PieCtrl.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_PieVect.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_SWPrioritizedDefaultIsr.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_SWPrioritizedPieVect.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Sci.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Spi.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_SysCtrl.c \
+../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_TempSensorConv.c 
+
+C_DEPS += \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Adc.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Comp.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CpuTimers.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_DefaultIsr.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_ECan.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_ECap.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_EPwm.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_EQep.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Gpio.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_HRCap.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_I2C.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Lin.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_OscComp.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_PieCtrl.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_PieVect.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_SWPrioritizedDefaultIsr.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_SWPrioritizedPieVect.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Sci.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Spi.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_SysCtrl.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_TempSensorConv.d 
+
+OBJS += \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Adc.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CSMPasswords.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CodeStartBranch.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Comp.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CpuTimers.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_DBGIER.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_DefaultIsr.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_DisInt.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_ECan.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_ECap.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_EPwm.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_EQep.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Gpio.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_HRCap.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_I2C.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Lin.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_OscComp.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_PieCtrl.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_PieVect.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_SWPrioritizedDefaultIsr.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_SWPrioritizedPieVect.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Sci.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Spi.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_SysCtrl.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_TempSensorConv.obj \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_usDelay.obj 
+
+ASM_DEPS += \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CSMPasswords.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CodeStartBranch.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_DBGIER.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_DisInt.d \
+./device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_usDelay.d 
+
+OBJS__QUOTED += \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_Adc.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_CSMPasswords.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_CodeStartBranch.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_Comp.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_CpuTimers.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_DBGIER.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_DefaultIsr.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_DisInt.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_ECan.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_ECap.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_EPwm.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_EQep.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_Gpio.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_HRCap.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_I2C.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_Lin.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_OscComp.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_PieCtrl.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_PieVect.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_SWPrioritizedDefaultIsr.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_SWPrioritizedPieVect.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_Sci.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_Spi.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_SysCtrl.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_TempSensorConv.obj" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_usDelay.obj" 
+
+C_DEPS__QUOTED += \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_Adc.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_Comp.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_CpuTimers.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_DefaultIsr.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_ECan.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_ECap.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_EPwm.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_EQep.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_Gpio.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_HRCap.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_I2C.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_Lin.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_OscComp.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_PieCtrl.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_PieVect.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_SWPrioritizedDefaultIsr.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_SWPrioritizedPieVect.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_Sci.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_Spi.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_SysCtrl.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_TempSensorConv.d" 
+
+ASM_DEPS__QUOTED += \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_CSMPasswords.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_CodeStartBranch.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_DBGIER.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_DisInt.d" \
+"device_support\F2803x_v130\DSP2803x_common\source\DSP2803x_usDelay.d" 
+
+C_SRCS__QUOTED += \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Adc.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Comp.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CpuTimers.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_DefaultIsr.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_ECan.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_ECap.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_EPwm.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_EQep.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Gpio.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_HRCap.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_I2C.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Lin.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_OscComp.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_PieCtrl.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_PieVect.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_SWPrioritizedDefaultIsr.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_SWPrioritizedPieVect.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Sci.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_Spi.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_SysCtrl.c" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_TempSensorConv.c" 
+
+ASM_SRCS__QUOTED += \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CSMPasswords.asm" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CodeStartBranch.asm" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_DBGIER.asm" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_DisInt.asm" \
+"../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_usDelay.asm" 
+
+

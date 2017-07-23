@@ -18,7 +18,7 @@
 //###########################################################################
 
 #include "Boot.h"
-#include "Flash2803x_API_Library.h"
+
 #include "descriptor.h"
 
 #ifndef NULL
