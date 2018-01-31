@@ -1,7 +1,0 @@
-# FIXED
-
-Shared_Boot.obj: C:/projects/CCS/280xxBootLoader/SRC/Shared_Boot.c
-Shared_Boot.obj: C:/projects/CCS/280xxBootLoader/SRC/Boot.h
-
-C:/projects/CCS/280xxBootLoader/SRC/Shared_Boot.c: 
-C:/projects/CCS/280xxBootLoader/SRC/Boot.h: 

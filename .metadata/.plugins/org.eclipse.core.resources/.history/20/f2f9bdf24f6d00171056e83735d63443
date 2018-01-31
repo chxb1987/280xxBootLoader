@@ -1,7 +1,0 @@
-# FIXED
-
-descriptor.obj: C:/projects/CCS/280xxBootLoader/SRC/descriptor.c
-descriptor.obj: C:/projects/CCS/280xxBootLoader/SRC/descriptor.h
-
-C:/projects/CCS/280xxBootLoader/SRC/descriptor.c: 
-C:/projects/CCS/280xxBootLoader/SRC/descriptor.h: 

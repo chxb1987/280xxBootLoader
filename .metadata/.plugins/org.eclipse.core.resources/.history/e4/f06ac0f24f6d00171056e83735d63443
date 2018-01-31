@@ -1,5 +1,0 @@
-# FIXED
-
-device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CpuTimers.obj: ../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CpuTimers.c
-
-../device_support/F2803x_v130/DSP2803x_common/source/DSP2803x_CpuTimers.c: 

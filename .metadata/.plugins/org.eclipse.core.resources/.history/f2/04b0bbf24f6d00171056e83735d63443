@@ -1,7 +1,0 @@
-# FIXED
-
-SCI_Boot.obj: C:/projects/CCS/280xxBootLoader/SRC/SCI_Boot.c
-SCI_Boot.obj: C:/projects/CCS/280xxBootLoader/SRC/Boot.h
-
-C:/projects/CCS/280xxBootLoader/SRC/SCI_Boot.c: 
-C:/projects/CCS/280xxBootLoader/SRC/Boot.h: 
