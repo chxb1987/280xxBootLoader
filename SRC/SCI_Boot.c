@@ -23,7 +23,7 @@
 #include "Boot.h"
 
 
-#define SCI_PINS_7_12 1
+
 
 // Private functions
 inline void SCIA_Init(void);
@@ -143,6 +143,7 @@ inline void SCIA_Init()
 #ifdef RUN_FROM_RAM
 #pragma CODE_SECTION(SCIA_AutobaudLock, "ramfuncs");
 #endif
+
 inline void SCIA_AutobaudLock()
 {
     Uint16 byteData;

@@ -33,6 +33,9 @@
 //Uint16     EmuKey;
 //Uint16     EmuBMode;
 Uint16     ReservedFn[8];
+// 	0 - sectors to erase
+//	1 - Enable KEY Sector A erase
+//	3 - Sector erase report
 
 struct HEADER {
   Uint16 BlockSize;
@@ -83,9 +86,20 @@ void sectorErase(Uint16 sector)
 
 	if(status != STATUS_SUCCESS)
 	{
-	   //TODO fix so that it returns a serial error and reboot device
-	   while(1); //reset boot loader
+		 if (ReservedFn[02]&0x01) //Report sector erase status
+		 {
+		        SciaRegs.SCITXBUF = sector & 0xFF;
+		    	SciaRegs.SCITXBUF = 0x55; //failure
+		 }
+
+		 while(1); //reset boot loader
 	}
+
+    if (ReservedFn[02]&0x01) //Report sector erase status
+    {
+        SciaRegs.SCITXBUF = sector & 0xFF;
+    	SciaRegs.SCITXBUF = 0x00; // success
+    }
 }
 
 //#################################################
@@ -118,17 +132,12 @@ void CopyData()
    Flash_CallbackPtr = NULL;
    EDIS;
 
-#if FLASH_F28031 || FLASH_F28032 || FLASH_F28033 || FLASH_F28035 || FLASH_F28034
-#ifdef KUKU
-   DINT;	// Disable Global interrupt INTM
-   status = Flash_Erase((SECTORA | SECTORB|  SECTORC | SECTORD |
-		                 SECTORE | SECTORF | SECTORG | SECTORH), &FlashStatus);
-   EINT;	// Disable Global interrupt INTM
-#else
+   /*************Erase *********************/
    if (ReservedFn[0])
 	   sectorMask=ReservedFn[0]&0x00FF;
 
-   sectorErase(SECTORA&sectorMask);
+   if (ReservedFn[01]==0x005A)
+	   sectorErase(SECTORA&sectorMask);
    sectorErase(SECTORB&sectorMask);
    sectorErase(SECTORC&sectorMask);
    sectorErase(SECTORD&sectorMask);
@@ -136,10 +145,7 @@ void CopyData()
    sectorErase(SECTORF&sectorMask);
    sectorErase(SECTORG&sectorMask);
    sectorErase(SECTORH&sectorMask);
-#endif
-#elif FLASH_F28030
-   status = Flash_Erase((SECTORA | SECTORB | SECTORC | SECTORD), &FlashStatus);
-#endif
+
 
    // After Flash Erase, send the checksum to PC program.
    SendCheckSum();

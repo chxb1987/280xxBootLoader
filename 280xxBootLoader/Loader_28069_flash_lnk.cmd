@@ -67,9 +67,9 @@ PAGE 0 :   /* Program Memory */
 
 
 	/****competablity to 28035 not in use*****/
-   FLASHE      : origin = 0x3E4000, length = 0x004000     /* on-chip FLASH */
-   FLASHD      : origin = 0x3E8000, length = 0x004000     /* on-chip FLASH */
-   FLASHC      : origin = 0x3EC000, length = 0x004000     /* on-chip FLASH */
+   //FLASHE      : origin = 0x3E4000, length = 0x004000     /* on-chip FLASH */
+   //FLASHD      : origin = 0x3E8000, length = 0x004000     /* on-chip FLASH */
+   //FLASHC      : origin = 0x3EC000, length = 0x004000     /* on-chip FLASH */
 	/****End of competablity to 28035 not in use*****/
 
    /***FLASH B***/

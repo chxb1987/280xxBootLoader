@@ -45,6 +45,7 @@
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.ADVICE__PERFORMANCE.1413769463" name="Provide advice on optimization techniques (--advice:performance)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.ADVICE__PERFORMANCE" value="--advice:performance=all" valueType="string"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.DEFINE.1944672013" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.DEFINE" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_INLINE"/>
+									<listOptionValue builtIn="false" value="RUN_FROM_RAM"/>
 									<listOptionValue builtIn="false" value="SCI_PINS_7_12"/>
 									<listOptionValue builtIn="false" value="F2806x_PRE_DEF"/>
 								</option>
@@ -180,7 +181,7 @@
 			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
 				<configuration artifactExtension="out" artifactName="${ProjName}" buildProperties="" cleanCommand="${CG_CLEAN_CMD}" description="" id="com.ti.ccstudio.buildDefinitions.C2000.Debug.2114689448.748161681" name="F2803x" parent="com.ti.ccstudio.buildDefinitions.C2000.Debug">
 					<folderInfo id="com.ti.ccstudio.buildDefinitions.C2000.Debug.2114689448.748161681." name="/" resourcePath="">
-						<toolChain id="com.ti.ccstudio.buildDefinitions.C2000_16.9.exe.DebugToolchain.594752127" name="TI Build Tools" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C2000_16.9.exe.linkerDebug.1504652410">
+						<toolChain id="com.ti.ccstudio.buildDefinitions.C2000_16.9.exe.DebugToolchain.594752127" name="TI Build Tools" secondaryOutputs="com.ti.ccstudio.buildDefinitions.C2000_16.9.hex.outputType__BIN" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.C2000_16.9.exe.linkerDebug.1504652410">
 							<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.1348560914" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
 								<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=TMS320C28XX.TMS320F28035"/>
 								<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=little"/>
@@ -208,6 +209,7 @@
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.ADVICE__PERFORMANCE.1458775409" name="Provide advice on optimization techniques (--advice:performance)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.ADVICE__PERFORMANCE" value="--advice:performance=all" valueType="string"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.DEFINE.965680896" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.DEFINE" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_INLINE"/>
+									<listOptionValue builtIn="false" value="RUN_FROM_RAM"/>
 									<listOptionValue builtIn="false" value="SCI_PINS_7_12"/>
 									<listOptionValue builtIn="false" value="F2803x_PRE_DEF"/>
 								</option>
@@ -249,7 +251,9 @@
 								<inputType id="com.ti.ccstudio.buildDefinitions.C2000_16.9.exeLinker.inputType__CMD2_SRCS.1956375342" name="Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.exeLinker.inputType__CMD2_SRCS"/>
 								<inputType id="com.ti.ccstudio.buildDefinitions.C2000_16.9.exeLinker.inputType__GEN_CMDS.792030399" name="Generated Linker Command Files" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.exeLinker.inputType__GEN_CMDS"/>
 							</tool>
-							<tool id="com.ti.ccstudio.buildDefinitions.C2000_16.9.hex.1031100081" name="C2000 Hex Utility" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.hex"/>
+							<tool command="&quot;${CG_TOOL_HEX}&quot; &quot;${BuildArtifactFileName}&quot; -boot -sci8 -a -o &quot;28035_BootLoader.txt&quot;" id="com.ti.ccstudio.buildDefinitions.C2000_16.9.hex.1031100081" name="C2000 Hex Utility" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.hex">
+								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.hex.TOOL_ENABLE.2098104227" name="Enable tool" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.hex.TOOL_ENABLE" value="true" valueType="boolean"/>
+							</tool>
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
@@ -303,6 +307,7 @@
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.ADVICE__PERFORMANCE.439253125" name="Provide advice on optimization techniques (--advice:performance)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.ADVICE__PERFORMANCE" value="--advice:performance=all" valueType="string"/>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.DEFINE.1478729227" name="Pre-define NAME (--define, -D)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.DEFINE" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="_INLINE"/>
+									<listOptionValue builtIn="false" value="RUN_FROM_RAM"/>
 									<listOptionValue builtIn="false" value="F2806x_PRE_DEF"/>
 								</option>
 								<option id="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.UNDEFINE.1220743976" name="Undefine NAME (--undefine, -U)" superClass="com.ti.ccstudio.buildDefinitions.C2000_16.9.compilerID.UNDEFINE" valueType="stringList">
