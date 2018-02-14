@@ -133,7 +133,7 @@ SECTIONS
    .pinit           : > LOADER,    PAGE = 0
 
    ramfuncs         : LOAD = LOADER,
-					 RUN = RAML0,
+					 RUN = RAML3,
 				 	 LOAD_START(_RamfuncsLoadStart),
 					 LOAD_END(_RamfuncsLoadEnd),
 					 LOAD_SIZE(_RamfuncsLoadSize),

@@ -37,9 +37,7 @@ Uint32 GetLongData(void);
 extern void ReadReservedFn(void);
 
 extern unsigned int checksum;
-#ifdef DEBUG_INPUT
-volatile int buffer[2200];
-#endif
+
 //#################################################
 // Uint32 SCI_Boot(void)
 //--------------------------------------------
