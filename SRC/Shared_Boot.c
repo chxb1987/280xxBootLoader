@@ -32,7 +32,7 @@
 //#pragma    DATA_SECTION(EmuBMode,"EmuBModeVar");
 //Uint16     EmuKey;
 //Uint16     EmuBMode;
-Uint16     ReservedFn[8];
+Uint16     ReservedFn[8];   //([0] is the second word in HEX file)
 // 	0 - sectors to erase
 //	1 - Enable KEY Sector A erase
 //	3 - Sector erase report

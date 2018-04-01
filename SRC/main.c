@@ -16,6 +16,34 @@
 //             http://www.ti.com/ ALL RIGHTS RESERVED $
 //###########################################################################
 
+/****************************************************************************
+ * Redler modifications:
+ * **************************************************************************
+ *  Version: xx.xx.xx.xx , see "descriptor.h"
+ *  Dedicated Rayon_Serial_programmer PC-SW needed
+ *
+ * 1. Loader positioned in Flash A
+ * 2. Checksum Test:
+         Fail - Enter Loader mode
+         Success - Run Main software
+         (User can skip test if CHECKSUM==0)
+ * 3. SCI port selection
+ * 4. Bootloader Descriptor - Main software can read BootLoader VER etc.
+ * 5. Reserved function selected by modifying words (2 to 10) inside HEX File
+ * Reserved[WORD] - FUNCTION
+ *           [0]  - Sectors to erase
+ *           [1]  - Enable KEY Sector For A Erase
+ *           [3]  - Sector Erase report
+ * 6. Reset timer,After 1 sec Without activity - Reset software back to Loader mode.
+ * 7. Load main software at success
+ * 8. Ability to call Loader from main program
+ * 9. TBD  - Before entering main program. wait 1-3 sec for loader command.
+ * 10. TBD  - Write unit serial number (at sector A).
+ *
+ * Shlomi Dar 20/02/2018
+ ****************************************************************************/
+
+
 #include "DSP28x_Project.h"
 #include "descriptor.h"
 #include "boot.h"
